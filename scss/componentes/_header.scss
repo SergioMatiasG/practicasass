@@ -1,0 +1,27 @@
+header {
+    background-color: aqua;
+    @media screen and (max-width: 576px) {
+        background-color: blue;
+    }
+    nav {
+        padding: 20px $font-sz;
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+            li {
+                font-size: 20px;
+            }
+            a {
+                font-size: 10px;
+                &:hover{
+                    background-color: red;
+                }
+            }
+            @media screen and (max-width: 576px) {
+                font-size: 16px;
+            }
+        }
+    }
+}

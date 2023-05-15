@@ -1,0 +1,58 @@
+header {
+  background-color: aqua;
+}
+@media screen and (max-width: 576px) {
+  header {
+    background-color: blue;
+  }
+}
+header nav {
+  padding: 20px 30px;
+}
+header nav h1 {
+  text-align: center;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  font-size: 20px;
+}
+header nav ul a {
+  font-size: 10px;
+}
+header nav ul a:hover {
+  background-color: red;
+}
+@media screen and (max-width: 576px) {
+  header nav ul {
+    font-size: 16px;
+  }
+}
+
+.class {
+  font-family: verdana;
+}
+
+.clase {
+  color: rgb(64, 225, 225);
+  background-color: #ff2;
+}
+
+#ficticio {
+  background-color: #470f47;
+}
+
+#boleta {
+  background-color: #e273e2;
+}
+
+#dolares {
+  background-color: #c48694;
+}
+
+#sassyoteamo {
+  background-color: #f3f385;
+}
+
+/*# sourceMappingURL=style.css.map */

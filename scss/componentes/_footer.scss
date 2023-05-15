@@ -1,0 +1,35 @@
+// llamado de variable
+
+.class{
+    font-family: $ft;
+}
+
+
+// llamado de la lista
+
+
+.clase{
+    color: nth($colores ,2) ;
+    background-color: nth($colores,4);
+}
+
+
+// oscurece
+#ficticio{
+    background-color: darken($bg-p, 20%);
+}
+
+//aclara
+#boleta{
+    background-color: lighten($bg-p, 30%);
+}
+
+//mescla
+#dolares{
+    background-color: mix($bg-p, $bg-s);
+}
+
+//saturar
+#sassyoteamo{
+    background-color: saturate($bg-s, 10%);
+}
