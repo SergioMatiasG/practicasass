@@ -1,3 +1,9 @@
+footer {
+  background-color: green;
+  text-decoration: none;
+  border: 2px solid violet;
+}
+
 header {
   background-color: aqua;
 }

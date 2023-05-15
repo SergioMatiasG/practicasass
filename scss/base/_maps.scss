@@ -1,0 +1,12 @@
+$footer:(
+    bg-c: green,
+    deco: none,
+    borde: 2px solid violet,
+);
+
+//ejmeplo
+footer{
+    background-color: map-get($footer,bg-c);
+    text-decoration: map-get($footer,deco);
+    border: map-get($footer,borde);
+}
